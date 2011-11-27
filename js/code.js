@@ -1,6 +1,6 @@
  $(document).ready(function(){
    //var redirectURL= "http://google.com?q=";
-   var redirectURL= "http://localhost";
+   var redirectURL= "http://localhost:3000/link/index";
    var uid="1233";
    $('a').live('click', function() {
    var thelink = $(this);
