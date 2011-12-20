@@ -1,9 +1,11 @@
 $(document).ready(function(){
+//    alert("ddsfsdfsdf");
     //var redirectURL= "http://google.com?q=";
     var redirectURL= "http://localhost:3000/link/index";
     var uid="1233";
     var blacklist=["twitter","bash.org.ru", "joomla"];
     $('a').live('click', function() {
+        
         var thelink = $(this);
         var old_adress= thelink.attr('href');
         var rflag=1;
